@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <title>My Page Title</title>
+    <link rel="icon" type="icon" href="icon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <style>
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .margin {
+            margin-bottom: 45px;
+        }
+
+        .bg-1 {
+            background-color: #1abc9c;
+            color: #ffffff;
+        }
+
+        .bg-2 {
+            background-color: #474e5d;
+            color: #ffffff;
+        }
+
+        .bg-3 {
+            background-color: #ffffff;
+            color: #555555;
+        }
+
+        .bg-4 {
+            background-color: #2f2f2f;
+            color: #f5f6f7;
+
+        }
+
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+
+
+        }
+
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+
+        .navbar-nav li a:hover {
+            color: #1abc9c !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home">Me</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#design">DESIGN</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- First Container -->
+    <div id="home" class="container-fluid bg-1 text-center">
+        <h3 class="margin">Hello !</h3>
+        <img src="image.jpg" alt="" class="img-responsive img-circle margin" style="display: inline-block;" width="350"
+            height="350">
+        <h3>I'm Bharath Varma<br>
+            Front-end Developer
+
+            </h3>
+
+    </div>
+
+    <!-- Second Container -->
+    <div id="design" class="container-fluid bg-2 text-center">
+        <h3 class="margin">Front - end development</h3>
+        <p>
+            A front-end developer builds the front-end portion of websites and web applications—that is, the part that
+            users actually see and interact with. A front-end developer creates websites and applications using web
+            languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app.
+        </p>
+        <a href="#" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-search"></span> Search
+        </a>
+    </div>
+
+
+    <!-- Third Container (Grid) -->
+    <div id="skills" class="container-fluid bg-3 text-center">
+        <h3 class="margin" style="font-weight:bold; font-size:50px">Skills </h3><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <h3 style="font-weight: 600">HTML </h3>
+                <p>HTML (HyperText Markup Language) is the code that is used to structure a web page and its content.
+                    For example, content could be structured within a set of paragraphs, a list of bulleted points, or
+                    using images and data tables.</p>
+                <img src="html.png" alt="" class="img-responsive margin" style="width: 90%;">
+            </div>
+            <div class="col-sm-4">
+                <h3 style="font-weight: 600">CSS </h3>
+                <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document
+                    written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide
+                    Web, alongside HTML and JavaScript. </p>
+                <img src="css.png" alt="" class="img-responsive margin" style="width: 90%;">
+            </div>
+            <div class="col-sm-4">
+                <h3 style="font-weight: 600">JS </h3>
+                <p>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of
+                    the World Wide Web,As of 2022, 98% of websites use JavaScript on the client
+                    side for webpage behavior, often incorporating third-party libraries.</p>
+                <img src="js.webp" alt="" class="img-responsive margin" style="width: 90%;">
+            </div>
+            <h3 class="margin" style="font-weight:bold; font-size:40px">Frameworks </h3><br>
+            <div class="col-sm-4">
+                <h3 style="font-weight: 600">Bootstrap </h3>
+                <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web
+                    development. It contains HTML, CSS and JavaScript-based design templates for typography, forms,
+                    buttons, navigation, and other interface components..</p>
+                <img src="bootstrap.png" alt="" class="img-responsive margin" style="width: 90%;">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact" class="container-fluid bg-4 text-center">
+        <h2>Contact</h2>
+        <p>Email : bharathvarma507@gmail.com</p>
+
+        <p>github : <a href="https://github.com/bharath1104">www.github.com/bharath1104</a></p>
+    </footer>
+</body>
+
+</html>
